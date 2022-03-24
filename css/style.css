@@ -7,12 +7,19 @@ header {
 
 }
 
+
 .box {
     max-width: 1236px;
     margin: auto;
 
 }
-.sections_1 {
-background-image: url("images/bg.png");
+.section_1 {
+    background-image: url("images/bg.png");
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 
 }
