@@ -7,19 +7,610 @@ header {
 
 }
 
+h1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #ffffff;
+}
+h2 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+
+h3 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+h4 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.p_h1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #ffffff;
+
+}
 
 .box {
     max-width: 1236px;
     margin: auto;
 
 }
-.section_1 {
-    background-image: url("images/bg.png");
+.box_2 {
+
+    margin-left: 20%;
+
+}
+.logo {
+
+
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.naw {
+    display: flex;
+
+}
+.naw ul {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naw ul li {
+    margin-left: 30px;
+    list-style-type: none;
+
+}
+.naw ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.sections_1 {
+
+    background-image: url("../images/bg-1.png");
+    background-position: top;
+    background-size: cover;
+    background-size: 100%;
+
+    position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 298px;
+    padding-bottom: 30px;
+
+
+}
+.slide_button {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+width: 170px;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #FC0A7E;
+    border-radius: 3px;
+
+}
+
+.foto_slide {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 35%;
+}
+
+.arrow {
+display: flex;
+    justify-content: center;
+    margin-top: 207px;
+
+
+
+}
+.sections_2 {
+    padding-top: 100px;
+    box-sizing: border-box;
+   background-color: #1B1B1B;
+
+}
+.text_sections_2 {
+display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text_sections_2 p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A8A8A8;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+
+}
+
+.sections_3 {
+    padding-top: 80px;
+    box-sizing: border-box;
+    padding-left: 172px;
+
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 160px;
+
+}
+
+.text_content {
+    width: 306px;
+    margin-right: 195px;
+
+}
+.text_content p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+
+}
+
+.span_content {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A8A8A8;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.text_content_2 {
+    width: 306px;
+    margin-left: 144px;
+
+}
+.text_content_2 p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+
+}
+
+
+.block_icon {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.block_icon_text {
+width: 371px;
+}
+
+.block_icon_text p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 163px;
+
+}
+
+.number span {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 90px;
+    color: #333333;
+
+}
+
+
+.sections_4 {
+padding-left: 172px;
+    padding-top: 170px;
+
+
+
+}
+.dish {
+    display: flex;
+    align-items: center;
+    padding-bottom: 160px;
+
+}
+
+.text_dish {
+    width: 330px;
+    margin-right: 82px;
+
+}
+
+.text_dish_2 {
+    width: 330px;
+    margin-left: 77px;
+
+}
+.text_dish p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+}
+.text_dish_span {
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.dish_span_p {
+    text-decoration: underline;
+}
+
+.text_dish_2 p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+}
+
+.tochki {
+width: 58px;
+    height: 48px;
+
+}
+.block_Rectangle {
+
+    text-align: center;
+
+
+}
+.Rectangle {
+    width: 30px;
+    height: 1px;
+
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+
+.owl-carousel {
+    width: 700px;
+}
+.carousel p {
+
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #6B6B6B;
+    text-align: center;
+}
+
+.carousel_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.carousel span {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+
+}
+
+
+
+.owl-dot {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+}
+
+.owl-dot span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: #222222;
+}
+
+.owl-dot.active span {
+    background: rgba(34, 34, 34, 0.4);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+}
+
+
+.partners {
+    padding-top: 142px;
+    padding-bottom: 118px;
+    align-items: center;
+    display: block;
+    text-align: center;
+
+}
+.sections_5 {
+    background-image: url("../images/scrine_photos.png");
     background-position: top;
     background-size: cover;
     height: 100vh;
     position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
+
+}
+
+.sections_5_box {
+    height: 520px;
+
+
+}
+
+.sections_6 {
+    background-image: url("../images/bg-2.png");
+    background-position: top;
+    background-size: cover;
+    background-size: 100%;
+    position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 125px;
+    padding-bottom: 156px;
+
+}
+
+.get_started {
+    width: 395px;
+    height: 234px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+.get_started_a1 {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    background: #FC0A7E;
+    border-radius: 3px;
+
+}
+.get_started_a2 {
+     background: #000000;
+     opacity: 0.25;
+     border: 1px solid #000000;
+     font-family: 'Gothic A1';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #FFFFFF;
+     text-decoration: none;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 40px;
+     padding-right: 40px;
+     text-align: center;
+
+ }
+
+.sections_7 {
+    background-color: #1B1B1B;
+    padding-top: 89px;
+    padding-bottom: 71px;
+
+
+}
+
+.form_sections_7 {
+    width: 465px;
+    margin: auto;
+    height: 303px;
+    justify-content: center;
+    text-align: center;
+
+}
+.form_sections_7_span {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+}
+
+.form_box {
+    display: flex;
+    margin-top: 40px;
+
+}
+.form_input {
+width: 311px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 13px;
+    padding-right: 155px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px #FC0A7E;
+    border-radius: 3px 0px 0px 3px;
+    box-sizing: border-box;
+
+}
+.form_input input {
+    outline: none;
+    border: none;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+}
+
+.form_button {
+    width: 155px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form_button button {
+    text-decoration: none;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #1C1C1C;
+    background: none;
+    border: none;
+}
+
+footer {
+    background-color: #1B1B1B;
+    padding-top: 20px;
+    padding-bottom: 69px;
+
+}
+.logo_footer {
+    justify-content: center;
+    text-align: center;
+}
+.a_logo_footer {
+    text-decoration: none;
+}
+
+.footer_link {
+    justify-content: center;
+    text-align: center;
+    margin-top: 29px;
+}
+.footer_link ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer_link ul li {
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+.footer_link ul li a {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #6B6B6B;
+    text-decoration: none;
+
 
 }

@@ -1,0 +1,67 @@
+
+
+@media only screen and (max-width: 1620px) {
+
+
+    .foto_slide {
+        display: none;
+
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .box {
+        max-width: 1024px;
+    }
+    .foto_slide {
+        display: none;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+.naw {
+    margin-right: 15px;
+}
+
+.Momentum {
+    margin-left: 10px;
+}
+    .sections_1 {
+        min-width:100%;
+        min-height:100%;
+
+    }
+    .arrow {
+      margin-top: 10px;
+
+    }
+    .number {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+.sections_6 {
+    min-width:100%;
+    min-height:100%;
+}
+.text_dish_2 {
+    margin-right: 10px;
+}
+.burgers {
+    margin-right: 10px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+}
