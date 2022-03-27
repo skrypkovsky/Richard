@@ -4,12 +4,33 @@
 
 
     .foto_slide {
-        display: none;
-
-
+        display: none;}
+    .logo {
+        margin-left: 10px;
+    }
+    .naw {
+        margin-right: 15px;
     }
 
+    .Momentum {
+        margin-left: 10px;
+    }
 
+    .number {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .text_dish_2 {
+        margin-right: 10px;
+    }
+    .burgers {
+        margin-right: 10px;
+    }
+    .arrow {
+        margin-top: 40px;
+
+    }
 }
 
 
@@ -37,7 +58,7 @@
 
     }
     .arrow {
-      margin-top: 10px;
+      display: none;
 
     }
     .number {
@@ -55,13 +76,217 @@
 .burgers {
     margin-right: 10px;
 }
+    .partners img {
 
+      width: 100%;
+
+    }
 }
 
 
 
 @media only screen and (max-width: 768px) {
+    .box {
+        max-width: 768px;
+
+    }
+    .content {
+flex-direction: column;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .text_content {
+        margin-right: 0px;
+    }
+    .text_content_2 {
+        margin-left: 0px;
+    }
+    .sections_3 {
+        padding-left: 0px;
+    }
+
+    .sections_4 {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    .dish {
+        flex-direction: column;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .text_dish {
+        margin-right: 0px;
+    }
+    .text_dish_2 {
+        margin-left: 0px;
+    }
+    .number {
+        margin-top: 50px;
+    }
+    .box_2 {
+        margin-left: 5%;
+
+    }
+.partners{
+    padding-top: 100px;
+    padding-bottom: 0px;}
+
+
+    .naw ul li a {
+        display: none;
+    }
+    .naw a#pull {
+        width: 32px;
+        height: 32px;
+        display: block;
+        background-image: url("../images/menu-mobile.png");
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        margin-right: 10px;
+
+    }
 
 
 
 }
+
+@media only screen and (max-width: 428px) {
+    .box {
+        max-width: 428px;
+
+    }
+
+    .block_icon {
+    flex-direction: column;
+    margin: auto;
+}
+    .content {
+
+        padding-bottom: 50px;}
+    .block_icon_text {
+        width: 320px;
+        margin: auto;
+    }
+
+    .number {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .sections_4 {
+        padding-top: 50px;
+
+    }
+    .dish {
+        padding-bottom: 30px;
+    }
+    .carousel {
+        width: 320px;
+        margin: auto;
+    }
+    .owl-carousel {
+        width: 320px;
+        margin: auto;
+    }
+.owl-stage-outer {
+    width: 320px;
+}
+    .form_sections_7 {
+        width: 350px;
+        height: 270px;
+    }
+    .form_input {
+        width: 200px;
+
+
+    }
+    .form_button {
+        width: 150px;
+
+    }
+    .footer_link ul {
+    flex-direction: column;
+
+}
+    .partners{
+        padding-top: 100px;
+        padding-bottom: 0px;}
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .box {
+        max-width: 320px;
+
+    }
+    .box_2 {
+        margin-left: 0%;
+    }
+.h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+    .text_content {
+
+        width: 290px;
+    }
+    .text_content_2 {
+        width: 290px;
+    }
+    .dish {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    .text_dish {
+        width: 300px;
+    padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .text_dish_2 {
+        width: 300px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .carousel {
+        width: 300px;
+        margin: auto;
+    }
+    .owl-carousel {
+        width: 300px;
+        margin: auto;
+    }
+    .owl-stage-outer {
+        width: 300px;
+    }
+    .form_sections_7 {
+        width: 310px;
+        height: 250px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .form_input {
+        width: 150px;
+
+    }
+    .form_button {
+        width: 100px;
+
+    }
+    .sections_7 {
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+footer {
+    box-sizing: border-box;
+}
+
+
+}
+

@@ -4,10 +4,9 @@ header {
     position: absolute;
     width: 100%;
     padding-top: 32px;
-
 }
 
-h1 {
+.h1 {
     font-family: 'Gothic A1';
     font-style: normal;
     font-weight: 400;
@@ -23,7 +22,6 @@ h2 {
     line-height: 48px;
     color: #000000;
 }
-
 
 h3 {
     font-family: 'Gothic A1';
@@ -42,7 +40,6 @@ h4 {
     color: #000000;
 
 }
-
 .p_h1 {
     font-family: 'Gothic A1';
     font-style: normal;
@@ -50,7 +47,6 @@ h4 {
     font-size: 30px;
     line-height: 44px;
     color: #ffffff;
-
 }
 
 .box {
@@ -59,12 +55,9 @@ h4 {
 
 }
 .box_2 {
-
     margin-left: 20%;
-
 }
 .logo {
-
 
 }
 .head {
@@ -78,7 +71,6 @@ h4 {
 
 }
 .naw ul {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,20 +89,20 @@ h4 {
     font-size: 16px;
     line-height: 20px;
 }
-
+#pull {
+    display: none;
+}
 .sections_1 {
 
     background-image: url("../images/bg-1.png");
     background-position: top;
     background-size: cover;
-    background-size: 100%;
 
     position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
     padding-top: 298px;
     padding-bottom: 30px;
-
 
 }
 .slide_button {
@@ -143,8 +135,6 @@ display: flex;
     justify-content: center;
     margin-top: 207px;
 
-
-
 }
 .sections_2 {
     padding-top: 100px;
@@ -169,14 +159,12 @@ display: flex;
     letter-spacing: 2px;
     text-transform: uppercase;
 
-
 }
 
 .sections_3 {
     padding-top: 80px;
     box-sizing: border-box;
     padding-left: 172px;
-
 
 }
 
@@ -199,7 +187,6 @@ display: flex;
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
-
 
 }
 
@@ -228,9 +215,7 @@ display: flex;
     line-height: 30px;
     color: #6B6B6B;
 
-
 }
-
 
 .block_icon {
     display: flex;
@@ -266,15 +251,11 @@ width: 371px;
     font-size: 59px;
     line-height: 90px;
     color: #333333;
-
 }
-
 
 .sections_4 {
 padding-left: 172px;
     padding-top: 170px;
-
-
 
 }
 .dish {
@@ -327,7 +308,6 @@ padding-left: 172px;
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
-
 }
 
 .tochki {
@@ -336,9 +316,7 @@ width: 58px;
 
 }
 .block_Rectangle {
-
     text-align: center;
-
 
 }
 .Rectangle {
@@ -351,9 +329,7 @@ width: 58px;
     display: flex;
     flex-direction: column;
     width: 700px;
-
 }
-
 .owl-carousel {
     width: 700px;
 }
@@ -367,13 +343,11 @@ width: 58px;
     color: #6B6B6B;
     text-align: center;
 }
-
 .carousel_box {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-
 }
 .carousel span {
     font-family: 'Gothic A1';
@@ -382,18 +356,17 @@ width: 58px;
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
-
 }
 
-
-
-.owl-dot {
+.owl-dots {
     position: absolute;
     width: 100%;
     text-align: center;
 
 }
-
+.owl-dot{
+    margin: 5px;
+}
 .owl-dot span {
     display: inline-block;
     width: 7px;
@@ -408,29 +381,25 @@ width: 58px;
     height: 7px;
 }
 
-
 .partners {
+
     padding-top: 142px;
     padding-bottom: 118px;
     align-items: center;
     display: block;
     text-align: center;
-
 }
 .sections_5 {
     background-image: url("../images/scrine_photos.png");
     background-position: top;
     background-size: cover;
-    height: 100vh;
     position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
 
 }
-
 .sections_5_box {
-    height: 520px;
-
+    height: 518px;
 
 }
 
@@ -438,7 +407,6 @@ width: 58px;
     background-image: url("../images/bg-2.png");
     background-position: top;
     background-size: cover;
-    background-size: 100%;
     position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -454,9 +422,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-
 }
-
 
 .get_started_a1 {
     font-family: 'Gothic A1';
@@ -499,7 +465,6 @@ display: flex;
     padding-top: 89px;
     padding-bottom: 71px;
 
-
 }
 
 .form_sections_7 {
@@ -522,7 +487,6 @@ display: flex;
 .form_box {
     display: flex;
     margin-top: 40px;
-
 }
 .form_input {
 width: 311px;
@@ -544,7 +508,6 @@ width: 311px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
 
 }
 
