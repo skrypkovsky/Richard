@@ -149,6 +149,40 @@ flex-direction: column;
 
 
 }
+@media only screen and (max-width: 550px) {
+
+
+    .box {
+        max-width: 550px;
+
+    }
+    .box_2 {
+        margin-left: 5%;
+    }
+    .number {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .carousel {
+        width: 320px;
+        margin: auto;
+    }
+    .owl-carousel {
+        width: 320px;
+        margin: auto;
+    }
+    .owl-stage-outer {
+        width: 320px;
+
+    .dish {
+        padding-bottom: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 428px) {
     .box {
@@ -247,10 +281,7 @@ flex-direction: column;
 
 @media only screen and (max-width: 320px) {
 
-    .box {
-        max-width: 320px;
 
-    }
     .box_2 {
         margin-left: 0%;
     }
