@@ -212,7 +212,7 @@ flex-direction: column;
 }
     .partners{
         padding-top: 100px;
-        padding-bottom: 0px;}
+        padding-bottom: 0px;
 }
 
 .get_started {
@@ -239,9 +239,7 @@ flex-direction: column;
     padding-left: 25px;
     padding-right: 25px;
 
-
 }
-
 
 
 }
@@ -304,7 +302,7 @@ flex-direction: column;
 
     }
     .form_button {
-        width: 100px;
+        width: 130px;
 
     }
     .sections_7 {
