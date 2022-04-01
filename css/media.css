@@ -146,7 +146,17 @@ flex-direction: column;
 
     }
 
-
+    .carousel {
+        width: 420px;
+        margin: auto;
+    }
+    .owl-carousel {
+        width: 420px;
+        margin: auto;
+    }
+    .owl-stage-outer {
+        width:420px;
+    }
 
 }
 @media only screen and (max-width: 550px) {
@@ -173,12 +183,19 @@ flex-direction: column;
     }
     .owl-stage-outer {
         width: 320px;
-
+    }
     .dish {
         padding-bottom: 30px;
         padding-right: 10px;
         padding-left: 10px;
     }
+    .img_dish {
+
+
+
+
+    }
+
 }
 
 
