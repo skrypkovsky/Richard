@@ -284,6 +284,11 @@ padding-left: 172px;
 
 
 }
+.img_dish img {
+
+    width: 100%;
+    object-fit: ;
+}
 .text_dish_2 p {
     font-family: 'Gothic A1';
     font-style: normal;
