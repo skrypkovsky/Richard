@@ -1,0 +1,39 @@
+@import url(normalize.css);
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+@import url(style.css);
+@import url(media.css);
+.box {
+  max-width: 1236px;
+  margin: auto; }
+  @media screen and (max-width: 320px) {
+    .box {
+      max-width: 320px; } }
+
+.text_content_2 p {
+  font-family: 'Gothic A1';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #6B6B6B; }
+
+
+.text_sections_2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .text_sections_2 p {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A8A8A8;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=st.css.map */
